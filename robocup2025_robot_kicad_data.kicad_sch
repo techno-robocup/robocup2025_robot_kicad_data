@@ -4015,104 +4015,6 @@
 		)
 	)
 	(symbol
-		(lib_id "robo:DRV8835-s")
-		(at 120.65 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0650e26c-6cff-4e3c-ab98-57f11c7aeec5")
-		(property "Reference" "U2"
-			(at 120.015 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 120.015 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "f75cc5ea-5b6a-4987-84d2-74d687a9ef65")
-		)
-		(pin "7"
-			(uuid "8726bd81-ac4e-4d8c-b426-8cab2cb2f253")
-		)
-		(pin "9"
-			(uuid "9ab797a7-4351-46a0-8398-f59521a95f6d")
-		)
-		(pin "1"
-			(uuid "46bf47f4-a5c7-4436-be06-e31736d20c81")
-		)
-		(pin "5"
-			(uuid "6022a736-37cd-4802-8146-bf9a74124544")
-		)
-		(pin "4"
-			(uuid "0517392a-8204-49ab-8d59-d60c794cc403")
-		)
-		(pin "10"
-			(uuid "f98f2b49-074d-4376-81c5-c1dd944fd3c2")
-		)
-		(pin "6"
-			(uuid "77ec1492-d2e9-4305-96e4-267675b82362")
-		)
-		(pin "11"
-			(uuid "45d53f4b-ab40-4250-97eb-bf9018af0299")
-		)
-		(pin "12"
-			(uuid "01dab98b-7297-4fea-8d59-f23f8508fd96")
-		)
-		(pin "3"
-			(uuid "674acf5e-0abf-4cdd-b7a2-f4a1104b6d57")
-		)
-		(pin "2"
-			(uuid "87cdc3ba-a5d6-4788-bf5a-134374b39e24")
-		)
-		(instances
-			(project ""
-				(path "/b5a30cb0-4975-4a4d-80d0-bd3fe651edf8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "robo:ESP32-DEVKITC-32E")
 		(at 189.23 64.77 0)
 		(unit 1)
@@ -4729,6 +4631,104 @@
 			(project ""
 				(path "/b5a30cb0-4975-4a4d-80d0-bd3fe651edf8"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robo:DRV8835-s")
+		(at 120.65 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea3eb82b-8cd6-4d33-979a-f4c5d8c570c3")
+		(property "Reference" "U2"
+			(at 120.015 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.015 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ae8fa46f-ed9b-4d61-afa2-2fc7c8153dcd")
+		)
+		(pin "5"
+			(uuid "6eeb6bb1-c4bf-4eec-813c-6ab6d88111e7")
+		)
+		(pin "4"
+			(uuid "6b3aecd6-8c4e-4c8a-af8b-6f7274a54655")
+		)
+		(pin "9"
+			(uuid "143e907f-2dad-434d-9ec0-fc64cfdc880a")
+		)
+		(pin "3"
+			(uuid "d130abc4-fc3c-410f-8b16-e7e3a12dbf7e")
+		)
+		(pin "11"
+			(uuid "9a8d84d3-d5f4-4dce-b10a-bacfbefc5833")
+		)
+		(pin "10"
+			(uuid "8febc4ac-f5ab-414e-be8b-1a8aed0932c0")
+		)
+		(pin "1"
+			(uuid "01117140-ef56-4c5c-b94f-a48f238b1416")
+		)
+		(pin "2"
+			(uuid "883cfddc-c353-4599-8b8d-dcdfec897951")
+		)
+		(pin "12"
+			(uuid "4d35d549-b2e6-4cf7-b295-c3a5b6dbdcfa")
+		)
+		(pin "7"
+			(uuid "2c0cd98f-de79-41ac-a8e3-0af38d715d6d")
+		)
+		(pin "8"
+			(uuid "15289ed7-3208-4a62-9299-7b2344627f7d")
+		)
+		(instances
+			(project ""
+				(path "/b5a30cb0-4975-4a4d-80d0-bd3fe651edf8"
+					(reference "U2")
 					(unit 1)
 				)
 			)
